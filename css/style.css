@@ -1,0 +1,474 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+html {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav__link {
+  margin: 0 25px;
+  transition: 0.2s linear;
+}
+
+.nav__link:hover {
+  color: yellow;
+}
+
+.group1 {
+  background: #333333 url('images/111.png') center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.intro {
+  margin-left: 800px;
+  padding: 220px 0;
+}
+
+
+
+.title h3 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 200px;
+  color: #ffc200;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.title__text {
+  font-size: 40px;
+  line-height: 5px;
+  color: #fff;
+}
+
+.title__text h4 {
+  font-weight: 100;
+}
+
+.button {
+  padding: 15px 65px;
+  background-color: #ffc200;
+  color: #333333;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+}
+/*--------------------------------------------Group2--------------------------------------------*/
+.group2 {
+  background: white;
+}
+
+.BestSeller {
+  margin-top: 100px;
+}
+
+.title__2 h3{
+  text-align: center;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 500;
+  font-family: 'Grand Hotel', cursive;
+  margin-bottom: 5px;
+}
+
+.title__text2 p{
+  text-align: center;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.here {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 40px;
+  color: #333333;
+}
+
+.slidertitle {
+  display: flex;
+  justify-content: center;
+}
+
+.titlehere {
+  margin: 0 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlehere p {
+  margin: 0;
+  color: #333333;
+}
+
+.icon {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+/*---------------------------------------------Group3-------------------------------------------*/
+
+.group3 {
+  background: url('images/bacground/content.png') center no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+.background {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 190px;
+
+}
+
+.title__3 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 125px;
+  font-weight: 500;
+  color: #ffc200;
+  margin-top: 65px;
+}
+
+.title__3 h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.title__text3 {
+  font-size: 35px;
+  color: white;
+}
+
+.title__text3 p {
+  line-height: 5px;
+}
+
+.design {
+  padding-left: 200px;
+}
+
+.text {
+  padding-right: 150px;
+}
+
+.button__group3 {
+  margin-top: 50px;
+  padding: 15px 65px;
+  background-color: #ffc200;
+  color: #333333;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+}
+ /*----------------------------------------Statistics----------------------------------------*/
+
+.statistics {
+  background: url('images/bacground/statistics.png') center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 103vh;
+  display: block;
+}
+
+.text__2 {
+  text-align: center;
+  margin: 150px;
+
+}
+
+.title__4, .title__4 h3 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 120px;
+  font-weight: 100;
+  color: #ffc200;
+}
+
+.title_text4 p{
+  text-align: center;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.border {
+  padding: 0 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.share {
+  border: 6px solid white;
+  border-radius: 100%;
+  padding: 75px 80px;
+}
+
+.share1 {
+  border: 6px solid white;
+  border-radius: 100%;
+  padding: 75px 52px;
+}
+
+.count__number {
+  color: #ffc200;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.count__text {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*-----------------------------GRoup5-------------------------------------*/
+
+.group5 {
+  background-image: url('images/bacground/design.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: block;
+  background-position: center;
+}
+
+.chiken {
+  display: flex;
+  padding: 250px 200px;
+
+}
+
+.design__2 img{
+  width: 110%;
+}
+
+/*-----------------------------GRoup6-------------------------------------*/
+
+.group6 {
+  background: url('images/bacground/shape.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: block;
+  margin-top: 180px;
+
+}
+
+.text_group6 {
+  justify-content:center;
+  padding: 350px 130px;
+
+}
+
+.text__up {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  color: #333333;
+  font-weight: 500;
+
+}
+
+.un__title {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #333333;
+}
+
+/*-----------------------------GRoup6-------------------------------------*/
+.group7 {
+  background: url('images/bacground/last.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: block;
+}
+
+.content {
+  padding: 200px;
+}
+
+.title__last {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 120px;
+  text-align: center;
+  color: #333333;
+}
+
+.text__last {
+  text-align: center;
+  font-size: 35px;
+  color: #333333;
+  font-weight: 500;
+  padding: 0 150px;
+}
+
+.input input {
+  width: 650px;
+  border: 1px solid #white;
+  border-radius: 5px
+}
+
+.input input:hover {
+  border: none;
+}
+
+input {
+  box-sizing: border-box;
+  background-color: #fafafa;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+}
+.email {
+  display: flex;
+  padding: 80px 270px
+}
+
+.buttonchik {
+  padding: 12px 35px;
+  border: none;
+  font-size: 30px;
+  font-weight: 600;
+
+  border-radius: 5px;
+  background-color: #ffc200;
+  color: #333;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.podval {
+  background: #303030;
+}
+
+.tpod {
+  display: flex;
+  padding: 260px 90px;
+  justify-content: space-between;
+
+}
+
+.social__s img{
+  margin-top: 25px;
+  padding-right: 5px;
+}
+
+.social img{
+  padding: 0 5px;
+}
+
+.cok {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  margin-right: 150px;
+}
+
+.about h4 {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.link__foot {
+  font-size: 25px;
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.link__foot:hover {
+  color: #ffc200;
+  transition: .5s linear;
+}
+
+.about__class h4 {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.title__end h4 {
+  margin-bottom: 25px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.text__end p {
+  font-size: 25px;
+  margin: 0
+}
